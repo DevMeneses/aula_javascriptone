@@ -1,11 +1,32 @@
+
+
+function botão(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por Clicar</b>";
+ //alert("Obrigado por Clicar")
+ 
+}
+
+function redirecionar(){
+    window.open("https://www.linkedin.com/in/matheus-meneses-13bb73186/")
+}
+
+/*function validaIdade(idade){
+    var validar;
+    if (idade>= 18){
+        validar = true
+
+    }else{
+        validar = false
+
+    }
+    return validar;
+} 
+var idade =prompt("Qual sua idade?")
+console.log(validaIdade(idade));
+
 var d = new Date();
 alert(d);
 
-
-
-
-
-/*
 var count = 0;
 while (count <= 5) {
     console.log(count);
